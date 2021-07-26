@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(245, 239, 230);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+
+  .container {
+    width: 1400px;
+    margin: 0 auto;
+  }
+  
+  .center {
+    padding-left: calc(50% - 700px);
+    padding-right: calc(50% - 700px);
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: white;
+    border: 1px solid #ececec;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.17);
+  }
+  
+  .header__left, .header__right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__cart {
+    line-height: 38px;
+    display: block;
+    height: 34px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    
+  }
+  
+  .logo {
+  display: flex;
+  align-items: center;
+  font-size: 27px;
+  font-weight: 300;
+  color: #222222;
+  text-align: center;
+  letter-spacing: 0.03em;
+  line-height: 32px;
+  text-transform: uppercase;
+  }
+
+  .color-select {
+    font-weight: 700;
+    color: #878a8d;
+  }
+
+  .products {
+    column-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-template-rows: 1fr;
+    padding: 40px 80px;
+    justify-content: space-between;
+}
+    
+  .product-item {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    overflow: hidden;
+    margin: 20px 0;
+  }
+
+  .product-info {
+    font-weight: bold;
+    font-size: 13px;
+    color: #021f36;
+    text-transform: uppercase;
+  }
+
+  .product-price {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #222222;
+    text-transform: uppercase;
+  }
+
+  .desc {
+    border: 1px solid #c0c0c040;
+    padding: 15px
+  }
+
+.buy-btn {
+    background-color: #c0c0c040;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    color: #2f2a2d;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+  
+  
+
